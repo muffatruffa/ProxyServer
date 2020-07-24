@@ -1,0 +1,8 @@
+pippo@pippo:~/tmp/proxy_test$ curl -H "Content-Type: text/plain" -x localhost:8080 http://localhost:8000
+CB Example Domain Cleartext
+ CA
+
+pippo@pippo:~/tmp/proxy_test$ curl -H "Content-Type: text/html" -x localhost:8080 http://localhost:8000
+  <body>
+    Custom Html
+  <body>
